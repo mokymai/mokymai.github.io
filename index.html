@@ -63,6 +63,7 @@
     .tutorial {
       color: #1abc9c; /* Green */
     }
+    
     .r-pkg {
       color: #3399dd; /* blue */
     }
@@ -70,12 +71,16 @@
     .video {
       color: #dc3939; /* red */
     }
+    
+    .note {
+      color: yellow; /* red */
+    }
 
     .notbold{
       font-weight:normal;
       font-size: 16px;
       margin-top:4px;
-    }​
+    }
 
     .container-fluid {
       padding-top: 30px;
@@ -87,7 +92,7 @@
       padding-bottom: 1px;
     }
   </style>
-  <!-- =================================================================== -->
+  <!-- ================================================================== -->
 </head>
 
 
@@ -102,27 +107,39 @@
 
 
 <!-- Mokomoji mežiaga: svetainės ========================================= -->
-<div class="container-fluid-10 text-center margin">
-  <div class="row align-items-center color-blue">
-
-    <div class="col">
-      <h3><a class = "tutorial" href="https://mokymai.github.io/kursai/">
-      Mokomoji medžiaga <p class="notbold"> (konspektai, senesnės versijos)</p>
-      </a></h3>
+<div class="container-fluid-10 text-center">
+  <div class="row align-items-center justify-content-center">
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "tutorial" href="https://mokymai.github.io/teorija-2020/">
+        <img src="https://mokymai.github.io/kursai/fig/logo-biostat-4cr.png" 
+             class="center-block" style="width:25%" alt="analize-2020"><br>
+          Duomenų analizės teorija<br>
+          <span class="notbold">2020 ruduo <span class=" note">(rengiama)</span></span>
+        </a>
+      </h3>
     </div>
 
-    <div class="col">
-      <a class = "tutorial" href="https://mokymai.github.io/teorija-2020/">
-      <img src="https://mokymai.github.io/kursai/fig/logo-biostat-4cr.png" class="center-block" style="width:18%" alt="analize-2019">
-      Duomenų analizės teorija (2020)
-      </a>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "tutorial" href="https://mokymai.github.io/pratybos-2020/">
+        <img src="https://mokymai.github.io/kursai/fig/logo-R.png" 
+             class="center-block" style="width:25%" alt="analize-2020"><br>
+        Duomenų analizės pratybos programa „R“<br>
+        <span class="notbold">2020 ruduo <span class=" note">(rengiama)</span></span>
+        </a>
+      </h3>
     </div>
 
-    <div class="col">
-      <a class = "tutorial" href="https://mokymai.github.io/pratybos-2020/">
-      <img src="https://mokymai.github.io/kursai/fig/logo-R.png" class="center-block" style="width:15%" alt="analize-2019">
-      Analizė programa „R“ (2020)
-      </a>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "tutorial" href="https://mokymai.github.io/kursai/">
+        Archyvas <p class="notbold">(senesnės kursų versijos)</p>
+        </a>
+      </h3>
     </div>
 
   </div>
@@ -130,24 +147,36 @@
 
 <!-- R paketai =========================================================== bg-3 -->
 <div class="container-fluid-10 text-center margin">
-  <div class="row">
+  <div class="row align-items-center justify-content-center">
 
-    <div class="col">
-      <h3 class="margin"><a class = "r-pkg" href="https://mokymai.github.io/bio/">
-        „R“ paketas „bio“ <p class="notbold">(paketų diegimui, patikrai ir nustatymams)</p>
-      </a></h3>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "r-pkg" href="https://mokymai.github.io/bio/">
+        „R“ paketas „bio“ 
+        <p class="notbold">(paketų diegimui, patikrai ir nustatymams)</p>
+        </a>
+      </h3>
     </div>
 
-    <div class="col">
-      <h3 class="margin"><a class = "r-pkg" href="https://gegznav.github.io/RcmdrPlugin.biostat/">
-      „R“ paketas „RcmdrPlugin.biostat“ <p class="notbold">(skirtas mokytis statistinės analizės principus)</p>  </a></h3>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "r-pkg" href="https://gegznav.github.io/RcmdrPlugin.biostat/">
+        „R“ paketas „RcmdrPlugin.biostat“ 
+        <p class="notbold">(skirtas mokytis statistinės analizės principus)</p> 
+        </a>
+      </h3>
     </div>
 
-    <div class="col">
-      <h3 class="margin"><a class = "r-pkg" href="https://www.tidyverse.org/packages/">
-      „Tidyverse“ šeimos paketai<p class="notbold"></p>  </a></h3>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "r-pkg" href="https://www.tidyverse.org/packages/">
+        „Tidyverse“ šeimos paketai<p class="notbold"></p>
+        </a>
+      </h3>
     </div>
-
 
   </div>
 </div>
@@ -156,27 +185,42 @@
 
 <!-- YouTube ============================================================ -->
 <div class="container-fluid-10 text-center">
-  <div class="row">
+  <div class="row align-items-center justify-content-center">
     <!--
-    <h3 class="margin"><a class = "wh" href="https://www.youtube.com/channel/UCmm7E2ZjTeaP2ycIAIttcJQ">„Mokymai“ (YouTube kanalas)</a></h3>
+    <h3 class="margin">
+    <a class = "wh" href="https://www.youtube.com/channel/UCmm7E2ZjTeaP2ycIAIttcJQ">„Mokymai“ (YouTube kanalas)
+    
+    </a>
+    </h3>
     -->
-    <div class="col">
-      <h3 class="margin"><a class = "video" href="https://www.youtube.com/channel/UCmm7E2ZjTeaP2ycIAIttcJQ">
+    
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "video" href="https://www.youtube.com/channel/UCmm7E2ZjTeaP2ycIAIttcJQ">
         „YouTube“ kanalas<p class="notbold">(viešai prieinami įrašai)</p>
-      </a></h3>
+      </a>
+      </h3>
+    </div>
+  <!--
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+      <a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=119440">
+         Grojaraštis paskaitoms
+         <p class="notbold">(tik BS-2020 studentams)</p>
+      </a>
+      </h3>
     </div>
 
-    <div class="col">
-      <h3 class="margin"><a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=119440">
-         Grojaraštis paskaitoms<p class="notbold">(tik BS-2020 studentams)</p>
-      </a></h3>
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+      <a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=97634">
+        Grojaraštis pratyboms
+        <p class="notbold">(tik BS-2020 studentams)</p>
+      </a>
+      </h3>
     </div>
-
-    <div class="col">
-      <h3 class="margin"><a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=97634">
-        Grojaraštis pratyboms<p class="notbold">(tik BS-2020 studentams)</p>
-      </a></h3>
-    </div>
+  -->
   </div>
 </div>
 
