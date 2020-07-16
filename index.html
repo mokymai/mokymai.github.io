@@ -25,7 +25,7 @@
       color: #f5f6f7;
     }
 
-    a:hover {
+    span:hover, a:hover {
       color: yellow;
       font-size: 100%;
       text-shadow: 0px 0px 5px #000000;
@@ -44,6 +44,10 @@
       color: #ffffff;
       text-shadow: 0px 0px 5px #000000;
      }
+
+    .bg-0 {
+      background-color: #1f1f1f; /* Grey */
+    }
 
     .bg-green {
       background-color: #1abc9c; /* Green */
@@ -75,7 +79,15 @@
     .note {
       color: yellow; /* red */
     }
-
+    
+    .darkgrey {
+       color: grey;
+    }
+    
+    .darker {
+       color: #585858;
+    }
+    
     .notbold{
       font-weight:normal;
       font-size: 16px;
@@ -100,7 +112,7 @@
 <body>
 
 <!-- Antraštės -->
-<div class="container-fluid-10 bg-0 text-center margin">
+<div class="container-fluid-10 bg-0 text-center ">
   <h1>Sveiki atvykę!</h1>
   <p>Pasirinkite, kas jus domina</p>
 </div>
@@ -129,15 +141,6 @@
              class="center-block" style="width:25%" alt="analize-2020"><br>
         Duomenų analizės pratybos programa „R“<br>
         <span class="notbold">2020 ruduo <span class=" note">(rengiama)</span></span>
-        </a>
-      </h3>
-    </div>
-
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="col-10 col-md-4">
-      <h3 class="margin">
-        <a class = "tutorial" href="https://mokymai.github.io/kursai/">
-        Archyvas <p class="notbold">(senesnės kursų versijos)</p>
         </a>
       </h3>
     </div>
@@ -183,7 +186,7 @@
 
 
 
-<!-- YouTube ============================================================ -->
+<!-- Blog | YouTube | etc  =============================================== -->
 <div class="container-fluid-10 text-center">
   <div class="row align-items-center justify-content-center">
     <!--
@@ -195,6 +198,19 @@
     -->
     
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- <div class="col-10 col-md-4 offset-md-4"> -->
+    
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "video" href="https://datafortress.github.io/">
+        Tinklaraštis<br>
+        <span class="notbold note">(rengiama)</span>
+      </a>
+      </h3>
+    </div>
+    
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <div class="col-10 col-md-4">
       <h3 class="margin">
         <a class = "video" href="https://www.youtube.com/channel/UCmm7E2ZjTeaP2ycIAIttcJQ">
@@ -202,7 +218,18 @@
       </a>
       </h3>
     </div>
-  <!--
+    
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="col-10 col-md-4">
+      <h3 class="margin">
+        <a class = "tutorial" href="https://mokymai.github.io/kursai/">
+        Archyvas <p class="notbold">(senesnės kursų versijos)</p>
+        </a>
+      </h3>
+    </div>
+    
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--
     <div class="col-10 col-md-4">
       <h3 class="margin">
       <a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=119440">
@@ -211,7 +238,10 @@
       </a>
       </h3>
     </div>
-
+-->
+ 
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--
     <div class="col-10 col-md-4">
       <h3 class="margin">
       <a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=97634">
@@ -220,25 +250,9 @@
       </a>
       </h3>
     </div>
-  -->
+-->
   </div>
 </div>
-
-
-<!--
-<div class="container-fluid-10 bg-3 text-center">
-  <h3 class="margin"><a class = "wh" href="https://DataFortress.github.io/lt/">„Duomenų tvirtovė“ (tinklaraštis)</a></h1>
-</div>
--->
-
-
-<!-- Footer -->
-<!--
-<footer class="container-fluid bg-0 text-center">
-  <p>Lekt V. Gėgžna<br>vilmantas [dot] gegzna [at] tmi [dot] vu [dot] lt </p>
-</footer>
--->
-
 
 </body>
 </html>
