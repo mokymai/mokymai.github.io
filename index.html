@@ -25,7 +25,7 @@
       color: #f5f6f7;
     }
 
-    a span:hover, a:hover {
+    a span:hover, a:hover, .darkgrey > a:hover {
       color: yellow;
       /*
       font-size: 100%;
@@ -75,6 +75,14 @@
       color: #ffffff;
     }
 
+    .less-saturation {
+      filter: saturate(25%);
+    }
+    
+    .less-saturation:hover {
+      filter: saturate(70%);
+    }
+
     .tutorial {
       color: #1abc9c; /* Green */
     }
@@ -87,11 +95,24 @@
       color: #dc3939; /* red */
     }
 
+    .archive {
+      color: #9b938d; /* grey */
+    }
+
+    .archive:hover {
+      color: rgb(255, 255, 255);
+      /*
+      font-size: 100%;
+      text-shadow: 0px 0px 5px #000000;
+      */
+      transition-duration: .3s;
+    }
+
     .note {
       color: yellow; /* red */
     }
 
-    .darkgrey {
+    .darkgrey, .darkgrey > a   {
        color: grey;
     }
 
@@ -103,6 +124,11 @@
       font-weight:normal;
       font-size: 16px;
       margin-top:4px;
+    }
+
+    .notbold0 {
+      font-weight:normal;
+      font-size: 16px;
     }
 
     .container-fluid {
@@ -242,13 +268,32 @@
     </div> -->
 
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="col-10 col-md-4">
+    <!-- <div class="col-10 col-md-4">
       <h3 class="margin">
         <a class = "tutorial" href="https://mokymai.github.io/archyvas/">
         Archyvas <p class="notbold">(senesnės kursų versijos)</p>
         </a>
       </h3>
+    </div> -->
+    
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <div class="col-sm-4 col-centered zoom">
+      <h3 class="margin">
+
+        <a class = "archive" href="https://mokymai.github.io/r-2020-1-pavasaris/" rel="nofollow">
+          <p>
+            <b>[Archyvas]</b> 
+            <img src="https://mokymai.github.io/archyvas/fig/logo-R.png" class="center-block less-saturation"
+                style="width:6%" alt="Įvadas į R"> 
+                Duomenų analizė programa „R“ <br>
+                <p class="notbold">(ankstesnių metų kurso konspektas: kai kurios temos išdėstytos plačiau nei šiemet, tačiau ne visos temos pasiekiamos viešai ar tinkamai atnaujintos)</p>
+          </p>
+        </a>
+
+      </h3>
     </div>
+
 
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!--
@@ -281,7 +326,6 @@
 <!-- Footer =========================================================== bg-0 -->
 
 <footer class="container-fluid bg-0 text-center">
-  <p></p>
   <p>
     <a href="https://orcid.org/0000-0002-9500-5167">
       Lekt. V. Gėgžna <br>
