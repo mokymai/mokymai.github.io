@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="lt">
+
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>Mokomoji medžiaga</title>
   <meta charset="utf-8">
   <meta name="description" content="Mokomoji medžiaga apie duomenų analizę, biostatistiką ir programą „R“">
-  <meta name="keywords" content="Programa R, R, biostatistika, statistika, duomenų analizė, duomenų mokslas, r programming, biostatistics, statistics, data analysis, data science">
+  <meta name="keywords"
+    content="Programa R, R, biostatistika, statistika, duomenų analizė, duomenų mokslas, r programming, biostatistics, statistics, data analysis, data science">
   <meta name="author" content="Vilmantas Gėgžna">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -21,14 +23,16 @@
       font: 20px Bookman, sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
-  	  background-color: #2f2f2f; 
+      background-color: #2f2f2f;
     }
 
     a {
       color: #f5f6f7;
     }
 
-    a span:hover, a:hover, .darkgrey > a:hover {
+    a span:hover,
+    a:hover,
+    .darkgrey>a:hover {
       color: yellow;
       /*
       font-size: 100%;
@@ -57,49 +61,57 @@
     .wh {
       color: #ffffff;
       text-shadow: 0px 0px 5px #000000;
-     }
+    }
 
     .bg-0 {
-      background-color: #1f1f1f; /* Grey */
+      background-color: #1f1f1f;
+      /* Grey */
     }
 
     .bg-green {
-      background-color: #1abc9c; /* Green */
+      background-color: #1abc9c;
+      /* Green */
       color: #ffffff;
     }
 
     .bg-red {
-      background-color: #990000; /* Dark red */
+      background-color: #990000;
+      /* Dark red */
       color: #ffffff;
     }
 
     .bg-blue {
-      background-color: #0066cc; /* Dark Blue  #007bff */
+      background-color: #0066cc;
+      /* Dark Blue  #007bff */
       color: #ffffff;
     }
 
     .less-saturation {
       filter: saturate(25%);
     }
-    
+
     .less-saturation:hover {
       filter: saturate(70%);
     }
 
     .tutorial {
-      color: #1abc9c; /* Green */
+      color: #1abc9c;
+      /* Green */
     }
 
     .r-pkg {
-      color: #3399dd; /* blue */
+      color: #3399dd;
+      /* blue */
     }
 
     .video {
-      color: #dc3939; /* red */
+      color: #dc3939;
+      /* red */
     }
 
     .archive {
-      color: #9b938d; /* grey */
+      color: #9b938d;
+      /* grey */
     }
 
     .archive:hover {
@@ -112,25 +124,27 @@
     }
 
     .note {
-      color: yellow; /* red */
+      color: yellow;
+      /* red */
     }
 
-    .darkgrey, .darkgrey > a   {
-       color: grey;
+    .darkgrey,
+    .darkgrey>a {
+      color: grey;
     }
 
     .darker {
-       color: #585858;
+      color: #585858;
     }
 
     .notbold {
-      font-weight:normal;
+      font-weight: normal;
       font-size: 16px;
-      margin-top:4px;
+      margin-top: 4px;
     }
 
     .notbold0 {
-      font-weight:normal;
+      font-weight: normal;
       font-size: 16px;
     }
 
@@ -143,92 +157,94 @@
       padding-top: 20px;
       padding-bottom: 1px;
     }
-
   </style>
   <!-- ================================================================== -->
 </head>
 
 
 <!-- ==================================================================== -->
+
 <body>
 
-<!-- Antraštės -->
-<div class="container-fluid-10 bg-0 text-center ">
-  <h1>Sveiki atvykę!</h1>
-  <p>Pasirinkite, kas jus domina</p>
-</div>
-
-
-<!-- Mokomoji mežiaga: svetainės ========================================= -->
-<div class="container-fluid-10 text-center">
-  <div class="row align-items-center justify-content-center">
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="col-10 col-md-5">
-      <h3 class="margin">
-        <a class = "tutorial" href="https://mokymai.github.io/biostatistika/">
-        <img src="https://mokymai.github.io/archyvas/fig/logo-biostat-4cr.png"
-             class="center-block" style="width:22.5%" alt="Biostatistika"><br>
-          Duomenų analizės teorija<br>
-          <span class="notbold">2022 pavasaris <!--<span class=" note">(rengiama)-->
-        </a>
-      </h3>
-    </div>
-
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="col-10 col-md-5">
-      <h3 class="margin">
-        <a class = "tutorial" href="https://mokymai.github.io/programa-r/">
-        <img src="https://mokymai.github.io/archyvas/fig/logo-R.png"
-             class="center-block" style="width:20.0%" alt="Programa R"><br>
-        <!-- Duomenų analizės pratybos programa „R“<br>* -->
-        Pratybos programa „R“<br>
-        <span class="notbold">2022 pavasaris <!--<span class=" note">(rengiama)-->
-      </a>
-      </h3>
-    </div>
-
+  <!-- Antraštės -->
+  <div class="container-fluid-10 bg-0 text-center ">
+    <h1>Sveiki atvykę!</h1>
+    <p>Pasirinkite, kas jus domina</p>
   </div>
-</div>
 
-<!-- R paketai =========================================================== bg-3 -->
-<div class="container-fluid-10 text-center margin">
-  <div class="row justify-content-center">
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="col-10 col-md-4">
-      <h3 class="margin">
-        <a class = "r-pkg" href="https://mokymai.github.io/bio/">
-        „R“ paketas „bio“
-        <p class="notbold">(paketų diegimui, patikrai ir nustatymams)</p>
-        </a>
-      </h3>
+  <!-- Mokomoji mežiaga: svetainės ========================================= -->
+  <div class="container-fluid-10 text-center">
+    <div class="row align-items-center justify-content-center">
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <div class="col-10 col-md-5">
+        <h3 class="margin">
+          <a class="tutorial" href="https://mokymai.github.io/biostatistika/">
+            <img src="https://mokymai.github.io/archyvas/fig/logo-biostat-4cr.png" class="center-block"
+              style="width:22.5%" alt="Biostatistika"><br>
+            Duomenų analizės teorija<br>
+            <span class="notbold">2022 pavasaris
+              <!--<span class=" note">(rengiama)-->
+          </a>
+        </h3>
+      </div>
+
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <div class="col-10 col-md-5">
+        <h3 class="margin">
+          <a class="tutorial" href="https://mokymai.github.io/programa-r/">
+            <img src="https://mokymai.github.io/archyvas/fig/logo-R.png" class="center-block" style="width:20.0%"
+              alt="Programa R"><br>
+            <!-- Duomenų analizės pratybos programa „R“<br>* -->
+            Pratybos programa „R“<br>
+            <span class="notbold">2022 pavasaris
+              <!--<span class=" note">(rengiama)-->
+          </a>
+        </h3>
+      </div>
+
     </div>
-
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-     <div class="col-10 col-md-4">
-      <h3 class="margin">
-        <a class = "r-pkg" href="https://gegznav.github.io/RcmdrPlugin.biostat/">
-        „R“ paketas „RcmdrPlugin.biostat“
-        <p class="notbold">(grafinė analizės aplinka; <span class=" note">išimta iš kurso)</p>
-        </a>
-      </h3>
-    </div>
-
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="col-10 col-md-4">
-      <h3 class="margin">
-        <a class = "r-pkg" href="https://mokymai.github.io/download/">
-        Kurso paketų saugykla<p class="notbold">(mokymai.github.io/download)</p>
-        </a>
-      </h3>
-    </div>
-
   </div>
-</div>
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    
-    <!-- <div class="col-10 col-md-4">
+  <!-- R paketai =========================================================== bg-3 -->
+  <div class="container-fluid-10 text-center margin">
+    <div class="row justify-content-center">
+
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <div class="col-10 col-md-4">
+        <h3 class="margin">
+          <a class="r-pkg" href="https://mokymai.github.io/bio/">
+            „R“ paketas „bio“
+            <p class="notbold">(paketų diegimui, patikrai ir nustatymams)</p>
+          </a>
+        </h3>
+      </div>
+
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <div class="col-10 col-md-4">
+        <h3 class="margin">
+          <a class="r-pkg" href="https://gegznav.github.io/RcmdrPlugin.biostat/">
+            „R“ paketas „RcmdrPlugin.biostat“
+            <p class="notbold">(grafinė analizės aplinka; <span class=" note">išimta iš kurso)</p>
+          </a>
+        </h3>
+      </div>
+
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <div class="col-10 col-md-4">
+        <h3 class="margin">
+          <a class="r-pkg" href="https://mokymai.github.io/download/">
+            Kurso paketų saugykla<p class="notbold">(mokymai.github.io/download)</p>
+          </a>
+        </h3>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+  <!-- <div class="col-10 col-md-4">
       <h3 class="margin">
         <a class = "r-pkg" href="https://www.tidyverse.org/packages/">
         „Tidyverse“ šeimos paketai<p class="notbold"></p>
@@ -237,10 +253,10 @@
     </div> -->
 
 
-<!-- Blog | YouTube | etc  =============================================== -->
-<div class="container-fluid-10 text-center">
-  <div class="row justify-content-center">
-    <!--
+  <!-- Blog | YouTube | etc  =============================================== -->
+  <div class="container-fluid-10 text-center">
+    <div class="row justify-content-center">
+      <!--
     <h3 class="margin">
     <a class = "wh" href="https://www.youtube.com/channel/UCmm7E2ZjTeaP2ycIAIttcJQ">„Mokymai“ (YouTube kanalas)
 
@@ -248,11 +264,11 @@
     </h3>
     -->
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- <div class="col-10 col-md-4 offset-md-4"> -->
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <!-- <div class="col-10 col-md-4 offset-md-4"> -->
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- <div class="col-10 col-md-4">
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <!-- <div class="col-10 col-md-4">
       <h3 class="margin">
         <a class = "video" href="https://datafortress.github.io/">
         Tinklaraštis<br>
@@ -261,8 +277,8 @@
       </h3>
     </div> -->
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- <div class="col-10 col-md-4">
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <!-- <div class="col-10 col-md-4">
       <h3 class="margin">
         <a class = "video" href="https://www.youtube.com/channel/UCmm7E2ZjTeaP2ycIAIttcJQ">
         „YouTube“ kanalas<p class="notbold">(viešai prieinami įrašai)</p>
@@ -270,36 +286,37 @@
       </h3>
     </div> -->
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- <div class="col-10 col-md-4">
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <!-- <div class="col-10 col-md-4">
       <h3 class="margin">
         <a class = "tutorial" href="https://mokymai.github.io/archyvas/">
         Archyvas <p class="notbold">(senesnės kursų versijos)</p>
         </a>
       </h3>
     </div> -->
-    
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-    <div class="col-sm-4 col-centered zoom">
-      <h3 class="margin">
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <a class = "archive" href="https://mokymai.github.io/r-2020-1-pavasaris/" rel="nofollow">
-          <p>
-            <b>[Archyvas]</b> 
-            <img src="https://mokymai.github.io/archyvas/fig/logo-R.png" class="center-block less-saturation"
-                style="width:6%" alt="Įvadas į R"> 
-                Duomenų analizė programa „R“ <br>
-                <p class="notbold">(ankstesnių metų kurso konspektas: kai kurios temos išdėstytos plačiau nei šiemet, tačiau ne visos temos pasiekiamos viešai ar tinkamai atnaujintos)</p>
-          </p>
-        </a>
+      <div class="col-sm-4 col-centered zoom">
+        <h3 class="margin">
 
-      </h3>
-    </div>
+          <a class="archive" href="https://mokymai.github.io/r-2020-1-pavasaris/" rel="nofollow">
+            <p>
+              <b>[Archyvas]</b>
+              <img src="https://mokymai.github.io/archyvas/fig/logo-R.png" class="center-block less-saturation"
+                style="width:6%" alt="Įvadas į R">
+              Duomenų analizė programa „R“ <br>
+              <p class="notbold">(ankstesnių metų kurso konspektas: kai kurios temos išdėstytos plačiau nei šiemet,
+                tačiau ne visos temos pasiekiamos viešai ar tinkamai atnaujintos)</p>
+            </p>
+          </a>
+
+        </h3>
+      </div>
 
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<!--
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <!--
     <div class="col-10 col-md-4">
       <h3 class="margin">
       <a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=119440">
@@ -310,8 +327,8 @@
     </div>
 -->
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<!--
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <!--
     <div class="col-10 col-md-4">
       <h3 class="margin">
       <a class = "video" href="https://emokymai.vu.lt/mod/url/view.php?id=97634">
@@ -321,26 +338,26 @@
       </h3>
     </div>
 -->
+    </div>
   </div>
-</div>
 
 
 
-<!-- Footer =========================================================== bg-0 -->
+  <!-- Footer =========================================================== bg-0 -->
 
-<footer class="container-fluid bg-0 text-center">
-  <p>
-    Svetainės autorius – V. Gėgžna <br>
-    <span class="darkgrey">
-      (<a href="https://github.com/GegznaV"                  target="_blank">GitHub</a>,
-      <a href="https://orcid.org/0000-0002-9500-5167"        target="_blank">ORCID</a>,
-      <a href="https://www.linkedin.com/in/vilmantasgegzna/" target="_blank">Linked In</a>,
-      <a href="http://web.vu.lt/gmc/v.gegzna/lt/teaching/"   target="_blank">VU</a>,
-  
-      vilmantas <span class="darker">[.] gegzna <span class="darker">[eta]
-      gmc <span class="darker">[.] vu <span class="darker">[.] lt)
-  </p>
-</footer>
+  <footer class="container-fluid bg-0 text-center">
+    <p>
+      Svetainės autorius – V. Gėgžna <br>
+      <span class="darkgrey">
+        (<a href="https://github.com/GegznaV" target="_blank">GitHub</a>,
+        <a href="https://orcid.org/0000-0002-9500-5167" target="_blank">ORCID</a>,
+        <a href="https://www.linkedin.com/in/vilmantasgegzna/" target="_blank">Linked In</a>,
+        <a href="http://web.vu.lt/gmc/v.gegzna/lt/teaching/" target="_blank">VU</a>,
+
+        <span class="darker">vilmantas [.] gegzna [eta] gmc [.] vu [.] lt</span>)
+    </p>
+  </footer>
 
 </body>
+
 </html>
